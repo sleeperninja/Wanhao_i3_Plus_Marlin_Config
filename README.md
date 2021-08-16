@@ -25,8 +25,9 @@ This is a set of Marlin Bugfix configs for replacing the stock motherboard with 
 
 ### To Do
 
+* Z-tramming (G34, in progress)
+* Need to add SKR 1.4 Turbo wiring diagram (SKR 1.4 Turbo discontinued...)
 * MK3s compatibility: MK3s extrusion rates are considerably higher as the layer hight increases. This was somewhat fixed when enabling relative extrusion, but may also be attributed to the custom start gcode changes in extruder current.
-* Nozzle homing: I love the BLTouch, but the wires are pretty delicate. There might be value in enabling full sensorless homing for two reasons:
+* Nozzle homing (consideration): I love the BLTouch, but the wires are pretty delicate. There might be value in enabling full sensorless homing for two reasons:
   * Fewer wires in X-axis bundle
   * True Z=0
-* Need to add SKR 1.4 Turbo wiring diagram
